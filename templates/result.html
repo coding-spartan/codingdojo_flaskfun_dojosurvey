@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" 
+        href="{{ url_for('static', filename='style.css')}}">
+   <title>Resul </title>
+
+</head>
+<body>
+    <div>
+        <h2>Submitted Info</h2>
+        <p>Name: {{ name2 }}</p>
+        <p>DoJo Location: {{ location2 }}</p>
+        <p>Favorite Language: {{ language2 }}</p>
+        <p>Comment: {{ comment2 }}</p>
+        <a href='/'><button>Go Back</button></a> 
+        <!-- # SO THAT IT GOES BACK TO MAIN ROUTE/PAGE -->
+    </div>
+</body>
+</html>
